@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web3Bridge Assessment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="park-container">
+        <label>Parking Slot</label>
+        <select id="vehicles">
+            <option value="10"> Cars 6O USD</option>
+            <option value="5"> Trucks 10O USD</option>
+        </select>
+    </div>
+
+    
+    <div id="container" class="container">
+        <div class="dashboard"></div>
+
+        <ul class="carparked">
+            <li>Cars</li>
+           
+        </ul>
+        <div class="row">
+            <div onclick="cars" id="cars" class="cars"></div>
+            <div onclick="cars" id="cars" class="cars"></div>
+            <div onclick="cars" id="cars" class="cars booked"></div>
+            <div onclick="cars" id="cars" class="cars booked"></div>
+            <div onclick="cars" id="cars" class="cars"></div>
+        </div>
+        <div class="row">
+            <div onclick="cars" id="cars" class="cars"></div>
+            <div onclick="cars" id="cars" class="cars"></div>
+            <div onclick="cars" id="cars" class="cars"></div>
+            <div onclick="cars" id="cars" class="cars booked"></div>
+            <div onclick="cars" id="cars" class="cars booked"></div>
+        </div>
+        <li>Trucks</li>
+
+        <div class="row">
+            <div onclick="truck" id="truck" class="truck"></div>
+            <div onclick="truck" id="truck" class="truck"></div>
+            <div onclick="truck" id="truck" class="truck"></div>
+            <div onclick="truck" id="truck" class="truck"></div>
+            <div onclick="truck" id="truck" class="truck"></div>
+        </div>
+    </div>
+
+    <p class="text">
+        You have selected <span id="count">0</span> parking space for a price of $ <span id="total">0</span>
+    </p>
+
+
+
+    <script src="script.js"> </script>
+</body>
+
+</html>
